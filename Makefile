@@ -6,6 +6,7 @@ DEPS = reformatter
 INIT_PACKAGES="(progn \
   (require 'package) \
   (push '(\"melpa\" . \"https://melpa.org/packages/\") package-archives) \
+  (setq package-check-signature nil) \
   (package-initialize) \
   (dolist (pkg '(PACKAGES)) \
     (unless (package-installed-p pkg) \
