@@ -66,7 +66,7 @@
 ;;;###autoload (autoload 'nixfmt-on-save-mode "nixfmt" nil t)
 (reformatter-define nixfmt
   :program nixfmt-command
-  :lighter " NixPkgFmt"
+  :lighter " Nixfmt"
   :group 'nixfmt)
 
 
