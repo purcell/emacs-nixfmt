@@ -37,11 +37,11 @@ this:
    (mode . nixfmt-on-save)))
 ```
 
-You might like to bind `nixfmt` or `nixfmt-buffer` to a key,
+You might like to bind `nixfmt-buffer` (or `nixfmt-region`) to a key,
 e.g. with:
 
 ```el
-(define-key 'nix-mode-map (kbd "C-c C-f") 'nixfmt)
+(define-key 'nix-mode-map (kbd "C-c C-f") 'nixfmt-buffer)
 ```
 
 [melpa]: http://melpa.org
